@@ -6,5 +6,5 @@ services:
     volumes:
       - "./data:/app/server"
     ports:
-      - "28015:28015"
+      - "28015:28015/udp"
       - "28016:28016"
