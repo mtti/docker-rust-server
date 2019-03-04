@@ -15,7 +15,7 @@ pushd /app/server
         -rcon.password "goodpassword" \
         -server.maxplayers 50 \
         -server.hostname "Server Name" \
-        -server.identity "my_server_identity" \
+        -server.identity "docker" \
         -server.level "Procedural Map" \
         -server.seed 123456 \
         -server.worldsize 3000 \
