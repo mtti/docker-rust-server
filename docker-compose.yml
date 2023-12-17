@@ -5,6 +5,8 @@ services:
       context: "."
     volumes:
       - "./data:/app/server"
+      - "./options.sh:/app/options.sh"
     ports:
       - "28015:28015/udp"
       - "28016:28016"
+      - "28016:28016/udp"
